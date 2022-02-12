@@ -2,6 +2,7 @@ package EMA.chickend.GUI;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -11,6 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
 
 import java.util.List;
 
@@ -24,6 +27,7 @@ public class AllLevelsOverviewForm extends Activity
     private List<Level>    m_AllLevels                 = null;
     private LinearLayout[] m_RowsLayouts               = null;
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -33,6 +37,7 @@ public class AllLevelsOverviewForm extends Activity
         Game.getInstance().loadLevels(this);
 
         this.m_RelativeLayout_MainLayout = findViewById(R.id.RelativeLayout_MainLayout);
+        this.m_RelativeLayout_MainLayout.setBackgroundResource(R.drawable.background_color_gradient);
         this.m_AllLevels = Game.getInstance().getLevels();
 
         ScrollView ScrollView_Layout = findViewById(R.id.ScrollView_Layout);
