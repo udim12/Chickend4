@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/RelativeLayout_Layout"
-    android:background="@color/maincolor"
+    android:background="@drawable/background_color_gradient2"
     >
     <Button
         android:id="@+id/start_btn"
