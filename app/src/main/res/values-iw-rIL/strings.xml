@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chickend</string>
+    <string name="start_game_button_text">התחל לשחק</string>
+    <string name="return_to_levels_activity_button_text">הפסדת את המשחק.</string>
+    <string name="messagebox_continue_playing_text">קח אותי לשלב הבא !</string>
+    <string name="messagebox_stop_playing_text">מעדיף לצאת</string>
+    <string name="textview_level_number_text">"שלב: "</string>
+    <string name="start_app">בואו נתחיל!</string>
+    <string name="finish_game_button">צא מהמשחק</string>
+    <string name="finsh_game_message">תודה ששיחקת!</string>
+    <string name="failed_toast_message">אוי לא !!</string>
+    <string name="success_toast_message">כל הכבוד !</string>
+    <string name="locked_level_message">לא ניתן לשחק שלב סגור !</string>
+    <string name="back_to_main_screen_button_text">חזרה למסך הראשי</string>
+    <string name="game_instructions_button_text">הוראות משחק</string>
+    <string name="clicks_to_kill_1">לחיצה אחת להריגה</string>
+    <string name="clicks_to_kill_2">שתי לחיצות להריגה</string>
+    <string name="clicks_to_kill_3">שלוש לחיצות להריגה</string>
+</resources>

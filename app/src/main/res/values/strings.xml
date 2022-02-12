@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Chickend</string>
+    <string name="start_game_button_text">Start Game</string>
+    <string name="return_to_levels_activity_button_text">Game Over.</string>
+    <string name="messagebox_continue_playing_text">Take me to the next level !</string>
+    <string name="messagebox_stop_playing_text">I prefer to leave</string>
+    <string name="textview_level_number_text">Level:</string>
+    <string name="start_app">Let\'s start!</string>
+    <string name="finish_game_button">Exit game</string>
+    <string name="finsh_game_message">Thank you for playing!</string>
+    <string name="failed_toast_message">Ohh shit !</string>
+    <string name="success_toast_message">Good job there !</string>
+    <string name="locked_level_message">You can\'t play an unlocked level !</string>
+    <string name="back_to_main_screen_button_text">Back to main screen</string>
+    <string name="game_instructions_button_text">How to play?</string>
+    <string name="clicks_to_kill_1">1 Click to kill</string>
+    <string name="clicks_to_kill_2">2 Clicks to kill</string>
+    <string name="clicks_to_kill_3">3 Clicks to kill</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Create a reserved ids for all the imageviews which will be generated dynamically in the code when the app loads.
+(Source: https://stackoverflow.com/a/15139414/2196301)
+-->
+<resources>
+    <item type="id" name="id_of_imageview_of_level_1" />
+    <item type="id" name="id_of_imageview_of_level_2" />
+    <item type="id" name="id_of_imageview_of_level_3" />
+    <item type="id" name="id_of_imageview_of_level_4" />
+    <item type="id" name="id_of_imageview_of_level_5" />
+    <item type="id" name="id_of_imageview_of_level_6" />
+    <item type="id" name="id_of_imageview_of_level_7" />
+    <item type="id" name="id_of_imageview_of_level_8" />
+    <item type="id" name="id_of_imageview_of_level_9" />
+    <item type="id" name="id_of_imageview_of_level_10" />
+    <item type="id" name="id_of_imageview_of_level_11" />
+    <item type="id" name="id_of_imageview_of_level_12" />
+    <item type="id" name="id_of_imageview_of_level_13" />
+    <item type="id" name="id_of_imageview_of_level_14" />
+    <item type="id" name="id_of_imageview_of_level_15" />
+    <item type="id" name="id_of_imageview_of_level_16" />
+    <item type="id" name="id_of_imageview_of_level_17" />
+    <item type="id" name="id_of_imageview_of_level_18" />
+    <item type="id" name="id_of_imageview_of_level_19" />
+    <item type="id" name="id_of_imageview_of_level_20" />
+
+    <item type="id" name="id_of_ratingbar_of_level_1" />
+    <item type="id" name="id_of_ratingbar_of_level_2" />
+    <item type="id" name="id_of_ratingbar_of_level_3" />
+    <item type="id" name="id_of_ratingbar_of_level_4" />
+    <item type="id" name="id_of_ratingbar_of_level_5" />
+    <item type="id" name="id_of_ratingbar_of_level_6" />
+    <item type="id" name="id_of_ratingbar_of_level_7" />
+    <item type="id" name="id_of_ratingbar_of_level_8" />
+    <item type="id" name="id_of_ratingbar_of_level_9" />
+    <item type="id" name="id_of_ratingbar_of_level_10" />
+    <item type="id" name="id_of_ratingbar_of_level_11" />
+    <item type="id" name="id_of_ratingbar_of_level_12" />
+    <item type="id" name="id_of_ratingbar_of_level_13" />
+    <item type="id" name="id_of_ratingbar_of_level_14" />
+    <item type="id" name="id_of_ratingbar_of_level_15" />
+    <item type="id" name="id_of_ratingbar_of_level_16" />
+    <item type="id" name="id_of_ratingbar_of_level_17" />
+    <item type="id" name="id_of_ratingbar_of_level_18" />
+    <item type="id" name="id_of_ratingbar_of_level_19" />
+    <item type="id" name="id_of_ratingbar_of_level_20" />
+
+    <item type="id" name="id_of_textview_of_level_1" />
+    <item type="id" name="id_of_textview_of_level_2" />
+    <item type="id" name="id_of_textview_of_level_3" />
+    <item type="id" name="id_of_textview_of_level_4" />
+    <item type="id" name="id_of_textview_of_level_5" />
+    <item type="id" name="id_of_textview_of_level_6" />
+    <item type="id" name="id_of_textview_of_level_7" />
+    <item type="id" name="id_of_textview_of_level_8" />
+    <item type="id" name="id_of_textview_of_level_9" />
+    <item type="id" name="id_of_textview_of_level_10" />
+    <item type="id" name="id_of_textview_of_level_11" />
+    <item type="id" name="id_of_textview_of_level_12" />
+    <item type="id" name="id_of_textview_of_level_13" />
+    <item type="id" name="id_of_textview_of_level_14" />
+    <item type="id" name="id_of_textview_of_level_15" />
+    <item type="id" name="id_of_textview_of_level_16" />
+    <item type="id" name="id_of_textview_of_level_17" />
+    <item type="id" name="id_of_textview_of_level_18" />
+    <item type="id" name="id_of_textview_of_level_19" />
+    <item type="id" name="id_of_textview_of_level_20" />
+
+    <item type="id" name="id_of_relativelayout_of_level_1" />
+    <item type="id" name="id_of_relativelayout_of_level_2" />
+    <item type="id" name="id_of_relativelayout_of_level_3" />
+    <item type="id" name="id_of_relativelayout_of_level_4" />
+    <item type="id" name="id_of_relativelayout_of_level_5" />
+    <item type="id" name="id_of_relativelayout_of_level_6" />
+    <item type="id" name="id_of_relativelayout_of_level_7" />
+    <item type="id" name="id_of_relativelayout_of_level_8" />
+    <item type="id" name="id_of_relativelayout_of_level_9" />
+    <item type="id" name="id_of_relativelayout_of_level_10" />
+    <item type="id" name="id_of_relativelayout_of_level_11" />
+    <item type="id" name="id_of_relativelayout_of_level_12" />
+    <item type="id" name="id_of_relativelayout_of_level_13" />
+    <item type="id" name="id_of_relativelayout_of_level_14" />
+    <item type="id" name="id_of_relativelayout_of_level_15" />
+    <item type="id" name="id_of_relativelayout_of_level_16" />
+    <item type="id" name="id_of_relativelayout_of_level_17" />
+    <item type="id" name="id_of_relativelayout_of_level_18" />
+    <item type="id" name="id_of_relativelayout_of_level_19" />
+    <item type="id" name="id_of_relativelayout_of_level_20" />
+
+    <item type="id" name="id_of_lockimageview_of_level_1" />
+    <item type="id" name="id_of_lockimageview_of_level_2" />
+    <item type="id" name="id_of_lockimageview_of_level_3" />
+    <item type="id" name="id_of_lockimageview_of_level_4" />
+    <item type="id" name="id_of_lockimageview_of_level_5" />
+    <item type="id" name="id_of_lockimageview_of_level_6" />
+    <item type="id" name="id_of_lockimageview_of_level_7" />
+    <item type="id" name="id_of_lockimageview_of_level_8" />
+    <item type="id" name="id_of_lockimageview_of_level_9" />
+    <item type="id" name="id_of_lockimageview_of_level_10" />
+    <item type="id" name="id_of_lockimageview_of_level_11" />
+    <item type="id" name="id_of_lockimageview_of_level_12" />
+    <item type="id" name="id_of_lockimageview_of_level_13" />
+    <item type="id" name="id_of_lockimageview_of_level_14" />
+    <item type="id" name="id_of_lockimageview_of_level_15" />
+    <item type="id" name="id_of_lockimageview_of_level_16" />
+    <item type="id" name="id_of_lockimageview_of_level_17" />
+    <item type="id" name="id_of_lockimageview_of_level_18" />
+    <item type="id" name="id_of_lockimageview_of_level_19" />
+    <item type="id" name="id_of_lockimageview_of_level_20" />
+
+</resources>
