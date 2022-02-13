@@ -171,8 +171,7 @@ public class PlayLevelActivity extends AppCompatActivity implements IBlowable {
     }
 
     // finish/start lvl pause
-    private void finishLevel()
-    {
+    private void finishLevel() {
         Toast.makeText(this, R.string.success_toast_message, Toast.LENGTH_SHORT).show();
         m_Playing = false;
 
@@ -186,43 +185,42 @@ public class PlayLevelActivity extends AppCompatActivity implements IBlowable {
             finish();
         }
 
-        dialog = new AlertDialog.Builder(this);
 
-        // Unlock the next level - LOGICALLY && GRAPHICALLY
-        Level nextLevel = Game.getInstance().getLevels().get(PlayLevelActivity.this.m_Level.getLevelNumber());
-        nextLevel.setIsLocked(false);
 
-        // Save the current state of game
-        Game.getInstance().saveLevels(this);
+        if (m_Level.getLevelNumber() != NUMBER_OF_LEVELS) {
+            dialog = new AlertDialog.Builder(this);
+            // Unlock the next level - LOGICALLY && GRAPHICALLY
+            Level nextLevel = Game.getInstance().getLevels().get(PlayLevelActivity.this.m_Level.getLevelNumber());
+            nextLevel.setIsLocked(false);
 
-        dialog.setPositiveButton(R.string.messagebox_continue_playing_text, new DialogInterface.OnClickListener()
-        {
-            @Override
-            public void onClick(DialogInterface dialog, int which)
-            {
-                nextLevel.generateChickens(PlayLevelActivity.this);
+            // Save the current state of game
+            Game.getInstance().saveLevels(this);
 
-                m_Level = nextLevel;
-                dialog.cancel();
-                startLevel();
-                ChickensSounds.getInstance().getChickenSounds().autoPause();
-            }
-        });
+            dialog.setPositiveButton(R.string.messagebox_continue_playing_text, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    nextLevel.generateChickens(PlayLevelActivity.this);
 
-        dialog.setNegativeButton(R.string.messagebox_stop_playing_text, new DialogInterface.OnClickListener()
-        {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finish();
-            }
+                    m_Level = nextLevel;
+                    dialog.cancel();
+                    startLevel();
+                    ChickensSounds.getInstance().getChickenSounds().autoPause();
+                }
+            });
 
-        });
+            dialog.setNegativeButton(R.string.messagebox_stop_playing_text, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    finish();
+                }
 
-        dialog.setCancelable(false);
-        dialog.show();
-        ChickensSounds.getInstance().getChickenSounds().autoPause();
+            });
+
+            dialog.setCancelable(false);
+            dialog.show();
+            ChickensSounds.getInstance().getChickenSounds().autoPause();
+        }
     }
-
     /**
      * what will happen when a Chicken is pressed.
      * @param chicken specific Chicken.
@@ -283,7 +281,6 @@ public class PlayLevelActivity extends AppCompatActivity implements IBlowable {
                 Animation scale = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.scale);
                 m_GoButton.startAnimation(scale);
                 m_GoButton.setVisibility(View.VISIBLE);
-                // m_GoButton.setText(R.string.return_to_levels_activity_button_text);
                 m_GoButton.setText(R.string.return_to_levels_activity_button_text);
             }
         }, 500);

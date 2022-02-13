@@ -7,28 +7,31 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_above="@+id/text_for_user"
-        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/covid_chicken_picture"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"
+            android:src="@drawable/covid_chicken_picture" />
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/chick_picture"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"
+            android:src="@drawable/chick_picture" />
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/mother_chicken_picture"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"
+            android:src="@drawable/mother_chicken_picture" />
 
 
     </LinearLayout>
@@ -67,19 +70,19 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/mother_chicken_picture"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"/>
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/regular_chicken_picture"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"/>
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/crazy_chicken_picture"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"/>
 
 
     </LinearLayout>
